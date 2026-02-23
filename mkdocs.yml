@@ -1,0 +1,61 @@
+site_name: Oleksii Zhokhov - Production & NPI Engineer. Portfolio
+site_description: NPI | Production Engineering | Line Retrofit | DFM | SMED
+site_author: Oleksii Zhokhov
+site_url: https://avialex13.github.io/your-repo-name/     #EDIT BEFORE PUBLISHING 
+edit_uri: ""
+
+nav:
+  - Home: /
+  - About: /#what-you-need
+  - What I do: /#what-i-do
+  - My Work Portfolio: /#my-work-portfolio
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.action.edit
+    - content.tooltips
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+  font:
+    text: Inter
+    code: JetBrains Mono
+  logo: img/favicon.svg
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/oleksii-zhokhov/
+    - icon: fontawesome/brands/github
+      link: https://github.com/AviAlex13
+
+plugins:
+  - search:
+      enabled: false
+  - glightbox:
+      zoomable: true
+      loop: false
