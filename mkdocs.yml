@@ -1,4 +1,4 @@
-site_name: Oleksii Zhokhov. Portfolio
+site_name: Portfolio
 site_description: NPI | Production Engineering | Line Retrofit | DFM | SMED
 site_author: Oleksii Zhokhov
 site_url: https://AviAlex13.github.io/npi-production-engineer/ 
@@ -47,6 +47,9 @@ extra_css:
   - stylesheets/extra.css
 
 extra:
+  analytics:
+    provider: google
+    property: G-68FZYX46HL
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/oleksii-zhokhov/
