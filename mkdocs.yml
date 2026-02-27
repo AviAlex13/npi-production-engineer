@@ -7,8 +7,9 @@ edit_uri: ""
 nav:
   - Home: "#"
   - About: "#what-you-need"
-  - What I do: "#what-i-do"
-  - My Work Portfolio: "#my-work-portfolio"
+  - Offer: "#what-i-do"
+  - Showcase: "#my-work-portfolio"
+  - Contact: "#contact"
 
 theme:
   name: material
@@ -51,10 +52,14 @@ extra:
     provider: google
     property: G-68FZYX46HL
   social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:zhokhovom@gmail.com?subject=Project%20Inquiry
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/oleksii-zhokhov/
     - icon: fontawesome/brands/github
       link: https://github.com/AviAlex13
+    - icon: fontawesome/brands/upwork
+      link: https://www.upwork.com/freelancers/~01f4eb8079c5b6d0d0
   social_image: img/preview.png
 
 plugins:
