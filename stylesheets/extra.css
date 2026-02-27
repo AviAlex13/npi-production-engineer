@@ -106,6 +106,47 @@
     line-height: 1.35;
 }
 
+/* CTA wrapper: center the button and keep it aligned with content */
+.cta-wrapper {
+    display: flex;                    /* allow easy horizontal centering */
+    justify-content: center;          /* center across page content */
+    margin: 1.25rem auto 1.75rem;     /* vertical spacing above hero, below visitor */
+    width: 100%;
+    padding: 0 1rem;                  /* small horizontal inset on narrow screens */
+}
+
+/* Primary CTA button — teal, pill, prominent but harmonious with hook */
+.cta-btn {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    background: linear-gradient(135deg, rgb(0,150,136), rgb(0,121,107)); /* teal gradient */
+    color: #fff !important;                       /* white text for contrast */
+    padding: 0.9rem 1.6rem;            /* generous click area */
+    border-radius: 12px;               /* rounded pill */
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12); /* noticeable but soft elevation */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    border: 0;
+    transition: transform .12s ease, box-shadow .12s ease, filter .12s ease;
+    outline: none;
+}
+
+/* Hover & active affordance */
+.cta-btn:hover,
+.cta-btn:focus {
+    transform: scale(1.02);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.14);
+    filter: brightness(1.03);
+}
+
+/* Keyboard focus visible (accessible) */
+.cta-btn:focus {
+    box-shadow: 0 18px 40px rgba(0,0,0,0.14), 0 0 0 4px rgba(0,150,136,0.12);
+}
+
 /* Portrait formatting in two-column header design */
 .hero {
     display: grid;
@@ -129,7 +170,7 @@
     margin-left: 0.25rem;
     color: #39494d;
     font-size: 0.9rem;
-    line-height: 1.4;
+    line-height: 1.45;
 }
 
 .hero-image {
@@ -194,31 +235,29 @@
 .activities > * p,
 .activities > * ul,
 .activities > * ol {
-    margin-left: 0.25rem;
     color: #39494d;
     font-size: 0.9rem;
-    line-height: 1.4;
+    line-height: 1.25;
 }
 
 .showcase {
     max-width: 760px;               /* control readable width */
-    margin: 1.5rem auto 1rem auto;  /* center horizontally */
+    margin: 1.5rem auto 1.5rem auto;  /* center horizontally */
     padding: 0 1rem;                /* optional breathing room */
 }
 
 .showcase h2 {
-    margin-left: 0.25rem;
     margin-bottom: 1.5rem;
     color: #085750;
     font-size: 1.5rem;
     line-height: 1.4;
 }
 
-.showcase ul {
-    margin-left: 0.25rem;
+.showcase ul, 
+.showcase p {
     color: #39494d;
     font-size: 0.9rem;
-    line-height: 1.4;
+    line-height: 1.25;
 }
 
 /* Masonry layout for cards */
@@ -243,6 +282,19 @@
     border-radius: 14px;
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
     display: block;
+}
+
+.contact-block {
+    margin: 1.5rem 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.contact-block h2 {
+    margin-bottom: 1.5rem;
+    color: #085750;
+    font-size: 1.5rem;
+    line-height: 1.4;
 }
 
 /* Limit content width for wider desktop */
@@ -277,6 +329,20 @@
 
     /* remove the left margin on first child because the stripe is now at top */
     .visitor > * > :first-child { margin-left: 0; }
+    
+    .cta-wrapper { margin: 1rem auto 1.25rem; }
+    .cta-btn {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        padding: 0.85rem 1rem;
+        font-size: 1.02rem;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .hero { grid-template-columns: 1fr; }
+    .hero-image img { max-width: 100%; height: auto; }
 
     .activities {
         grid-template-columns: 1fr;
