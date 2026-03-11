@@ -13,7 +13,7 @@ nav:
 
 theme:
   name: material
-  custom_dir: overrides
+  custom_dir: overrides/partials
   language: en
   features:
     - navigation.instant
