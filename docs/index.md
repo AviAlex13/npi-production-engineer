@@ -1,7 +1,6 @@
 ---
 title: Hands-on NPI & Production Engineer — Oleksii Zhokhov
 description: Hands-on NPI and production engineering for startups & SMEs. DFM, equipment validation, SMED, and retrofits to make first runs predictable.
-image: img/preview.png
 ---
 
 <div class="hook-banner" markdown="1">
