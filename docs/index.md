@@ -38,10 +38,11 @@ description: Hands-on NPI and production engineering for startups & SMEs. DFMA, 
        target="_blank"
        rel="noopener noreferrer"
        aria-label="Book a one hour meeting with Oleksii on Calendly"
-       onclick="gtag('event', 'calendly_booking_click', {
-         event_category: 'engagement',
-         event_label: 'primary_cta',
-         value: 1
+       onclick="dataLayer.push({
+        'event': 'calendly_booking_click',
+        'event_category': 'engagement',
+        'event_label': 'primary_cta',
+        'value': 1
        });">
       Schedule free call
     </a>
