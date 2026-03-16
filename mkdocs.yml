@@ -49,9 +49,6 @@ extra_css:
   - stylesheets/extra.css
 
 extra:
-  analytics:
-    provider: google
-    property: G-68FZYX46HL
   social:
     - icon: fontawesome/solid/envelope
       link: mailto:zhokhovom@gmail.com?subject=Project%20Inquiry
