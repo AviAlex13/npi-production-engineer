@@ -1,6 +1,6 @@
 ---
 title: Hands-on NPI & Production Engineer — Oleksii Zhokhov
-description: Hands-on NPI and production engineering for startups & SMEs. DFM, equipment validation, SMED, and retrofits to make first runs predictable.
+description: Hands-on NPI and production engineering for startups & SMEs. DFMA, equipment validation, SMED, and retrofits to make first runs predictable.
 ---
 
 <div class="hook-banner" markdown="1">
@@ -54,7 +54,7 @@ description: Hands-on NPI and production engineering for startups & SMEs. DFM, e
 
 ## What you need — <br>Hands-on NPI & Production Engineering {#what-you-need}
 
-I’m Oleksii — and I turn prototypes into manufacturable systems and stabilise existing lines. I deliver DFM, equipment validation, SMED, on-site commissioning and targeted retrofits for startups and SMEs, resulting in production-ready pilots, faster launches, and lower NPI risk with sustainability-aware decisions.
+I’m Oleksii — and I turn prototypes into manufacturable systems and stabilise existing lines. I deliver DFMA, equipment validation, SMED, on-site commissioning and targeted retrofits for startups and SMEs, resulting in production-ready pilots, faster launches, and lower NPI risk with sustainability-aware decisions.
 
 </div>
 
@@ -73,7 +73,7 @@ I’m Oleksii — and I turn prototypes into manufacturable systems and stabilis
 ## What I offer {#what-i-do}
 
 1. Manufacturing process audit.
-2. DFM analysis, assembly process optimisation.
+2. DFMA analysis, assembly process optimisation.
 3. Pilot planning, launch checklist.
 4. Test procedure & fixture design.
 5. Open-floor brainstorming.
