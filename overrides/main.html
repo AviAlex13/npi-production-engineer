@@ -11,8 +11,7 @@
 <meta name="google-site-verification" content="SY5fp0EhZJShmq4-XIPovfqbw65R_h-VTQANkDFjf6Y" />
 {% endblock %}
 
-{% block htmlhead %}
-{{ super() }}
+{% block extrahead %}
 <!-- Google Tag Manager -->
 <script>(function (w, d, s, l, i) {
         w[l] = w[l] || []; w[l].push({
@@ -23,12 +22,4 @@
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-NDKQV6N5');</script>
 <!-- End Google Tag Manager -->
-{% endblock %}
-
-{% block content %}
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDKQV6N5" height="0" width="0"
-        style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-{{ super() }}
 {% endblock %}
