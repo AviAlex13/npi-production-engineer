@@ -354,13 +354,3 @@
         padding: 0;
     }
 }
-
-.ch2-container {
-    position: fixed !important;
-    z-index: 999999 !important;
-}
-
-.ch2-settings,
-.ch2-icon {
-    pointer-events: auto !important;
-}
