@@ -362,7 +362,6 @@
     width: 100% !important;
     height: 100% !important;
     z-index: 999999 !important;
-    pointer-events: none !important;
 }
 
 .ch2-settings,
